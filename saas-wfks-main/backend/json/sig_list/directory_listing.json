@@ -1,0 +1,10 @@
+[
+  {
+    "sig_id": "150100001",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/dir.html\""
+  },
+  {
+    "sig_id": "150100002",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/dir2.html\""
+  }
+]

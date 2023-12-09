@@ -1,0 +1,50 @@
+{
+    "name": "name",
+    "desc": "desc",
+    "priority": "priority",
+    "general": {
+        "status": "enable",
+        "security_policy": {
+            "id": "id",
+            "desc": ""
+        },
+        "info": {
+            "protocol_type": "http",
+            "ignore_domain": "disable",
+            "proxy_type": "advanced",
+            "http2_status": "disable",
+            "lbmode": "load_balance"
+        },
+        "ssl_info": {
+            "backend": "enable",
+            "http_port": 80
+        },
+        "certificate": {
+            "private_key": "",
+            "cert": "",
+            "cert_info": "",
+            "passphrase": ""
+        },
+        "apply_ip_list": [
+            {
+                "desc": "",
+                "port": 80,
+                "version": "ipv4",
+                "ip": "ip",
+                "status": "enable",
+                "client_ip": "0.0.0.0",
+                "client_mask": "0",
+                "do_operation": "create"
+            }
+        ],
+        "exception_ip_list": [],
+        "domain_list": [
+            {
+                "status": "enable",
+                "domain": "domain",
+                "desc": "",
+                "do_operation": "create"
+            }
+        ]
+        }
+}

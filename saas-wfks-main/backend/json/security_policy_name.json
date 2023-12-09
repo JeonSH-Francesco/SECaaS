@@ -1,0 +1,15 @@
+{
+    "sql_injection": "sig_list",
+    "buffer_overflow": "adv_options",
+    "request_flood": ["adv_options", "adv_ssl_options"],
+    "evasion": "adv_options",
+    "cookie_protection": "adv_options",
+    "directory_listing": "sig_list",
+    "download": "sig_list",
+    "url_regex": "sig_list",
+    "xss": "sig_list",
+    "shellcode": "sig_list",
+    "upload": "sig_list",
+    "access_control": "sig_list",
+    "credential_stuffing": ["success_rule", "fail_rule"]
+}

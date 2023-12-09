@@ -1,0 +1,470 @@
+[
+  {
+    "sig_id": "111100001",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asa\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100002",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asp\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100003",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.aspx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100004",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cgi\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100005",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.conf\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100006",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.dll\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100007",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.html\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100008",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.inc\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100009",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ini\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100010",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.jsp\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100011",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.nsf\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100012",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ph\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100013",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100014",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100015",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100016",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.pl\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100017",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.sh\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100018",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.shtml\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100019",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.shtm\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100020",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.htm\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100021",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100022",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.js\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100023",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.css\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100024",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.htpasswd\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100025",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.htw\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100026",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.war\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100027",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cer\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100028",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.wml\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100029",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.wmls\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100030",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.mdb\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100031",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.kr\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100032",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ko\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100033",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.it\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100034",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cn\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100035",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.en\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100036",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.jp\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100037",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.bak\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100038",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.old\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100039",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.~\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100040",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100041",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.idc\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100042",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.stm\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100043",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cdx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100044",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.htr\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100045",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.xhtm\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100046",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.xhtml\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100047",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100048",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.vbs\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100049",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.php..\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100050",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.inc.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100051",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cgi.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100052",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.htm.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100053",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.shtml.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100054",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.shtm.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100055",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.html.\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100056",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asp#\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100057",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asa#\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100058",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cdx#\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100059",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cer#\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100064",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test<.:\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100065",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.'\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100066",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100067",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test--l\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100068",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.\\\\\\\\'\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100069",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asmx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100070",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ashx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100071",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.axd\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100072",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asax\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100073",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ascx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100074",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ad\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100075",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.php;\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100076",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asp\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100077",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asa\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100078",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cer\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100079",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.cdx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100080",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asmx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100081",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ashx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100082",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.axd\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100083",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.asax\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100084",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ascx\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100085",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.ad\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100086",
+    "poc_example": ""
+  },
+  {
+    "sig_id": "111100087",
+    "poc_example": "curl -X POST www.vulnerability.piolink.com/upload/upload.php --data-raw 'Content-Disposition: form-data; name=\"upload_name\"; filename=\"test.xml\"\r\nContent-Type: text/plain\r\n\r\n'"
+  },
+  {
+    "sig_id": "111100088",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/mTEHT7Un\""
+  },
+  {
+    "sig_id": "111100089",
+    "poc_example": "curl -H 'Content-Type: multipart/form-data; boundary=pio_boundary'  -d $'--pio_boundary\\r\\nContent-Disposition: form-data; name=\"filename\"; filename=\"img.jpg' select * from\"\\r\\nContent-Type: text/html\\r\\n\\r\\n\"[data]\"\\r\\n--pio_boundary--' https://www.vulnerability.piolink.com"
+  },
+  {
+    "sig_id": "111100090",
+    "poc_example": " curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php'  -F 'file1=@webshell.php7'"
+  },
+  {
+    "sig_id": "111100091",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php' -F 'file1=@webshell.war'"
+  },
+  {
+    "sig_id": "111100092",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php' -F 'file1=@webshell.phar'"
+  },
+  {
+    "sig_id": "111100093",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.jsp' -F 'file1=@webshell.jsv'"
+  },
+  {
+    "sig_id": "111100094",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.cfm' -F 'file1=@webshell.cfm'"
+  },
+  {
+    "sig_id": "111100095",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php' -F 'file1=@.htaccess'"
+  },
+  {
+    "sig_id": "111100096",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php' -F 'file1=@webshell.pht'"
+  },
+  {
+    "sig_id": "111100097",
+    "poc_example": "curl --location --request POST 'http://www.vulnerability.piolink.com/data/upload.php' -F 'file1=vul.session'"
+  },
+  {
+    "sig_id": "111200001",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.asa\""
+  },
+  {
+    "sig_id": "111200002",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.asp\""
+  },
+  {
+    "sig_id": "111200003",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.aspx\""
+  },
+  {
+    "sig_id": "111200004",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.cgi\""
+  },
+  {
+    "sig_id": "111200005",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.conf\""
+  },
+  {
+    "sig_id": "111200006",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.dll\""
+  },
+  {
+    "sig_id": "111200007",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.html\""
+  },
+  {
+    "sig_id": "111200008",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.inc\""
+  },
+  {
+    "sig_id": "111200009",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.ini\""
+  },
+  {
+    "sig_id": "111200010",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.jsp\""
+  },
+  {
+    "sig_id": "111200011",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.nsf\""
+  },
+  {
+    "sig_id": "111200012",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.ph\""
+  },
+  {
+    "sig_id": "111200013",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.php\""
+  },
+  {
+    "sig_id": "111200014",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.php3\""
+  },
+  {
+    "sig_id": "111200015",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.phps\""
+  },
+  {
+    "sig_id": "111200016",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.pl\""
+  },
+  {
+    "sig_id": "111200017",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.sh\""
+  },
+  {
+    "sig_id": "111200018",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.shtml\""
+  },
+  {
+    "sig_id": "111200019",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.shtm\""
+  },
+  {
+    "sig_id": "111200020",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.htm\""
+  },
+  {
+    "sig_id": "111200021",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.xml\""
+  },
+  {
+    "sig_id": "111200022",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.js\""
+  },
+  {
+    "sig_id": "111200023",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=target.css\""
+  },
+  {
+    "sig_id": "111200024",
+    "poc_example": "curl \"https://www.vulnerability.piolink.com/poc.html?param=/CFIDE/administrator/index.cfm\""
+  }
+]
