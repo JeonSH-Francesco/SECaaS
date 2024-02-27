@@ -12,7 +12,6 @@ from flask_migrate import Migrate
 from flask_jwt_extended import JWTManager
 from datetime import timedelta
 from decouple import config as config_
-from flask_mail import Mail # forgot pw 관련
 import socket
 import os
 import os
@@ -27,7 +26,6 @@ app.config.from_object(Config)
 db.init_app(app)
 bcrypt.init_app(app)
 
-mail=Mail(app) # forgot pw 관련
 
 # Import and register routes
 app.register_blueprint(users)
