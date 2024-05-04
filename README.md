@@ -13,3 +13,5 @@ SaaS ( Software as a Service)의 일종으로 보안 서비스에 특화된 SaaS
 
 ---
 ![image](https://github.com/JeonSH-Francesco/SECaaS/assets/112309895/268c9c6d-ad1b-4c83-b44b-06642e605d77)
+SECaaS 형태로 고객 웹 애플리케이션에 대한 웹 보안 서비스를 제공하기 위해
+프론트엔드는 React 라이브러리의 TypeScript로, 백엔드는 Flask 프레임워크의 Python으로 개발을 진행하였습니다. 정적 파일은 Nginx를 통해, 동적 처리는 Gunicorn을 통해 관리되며, 이 모든것은 Amazon EC2에서 호스팅됩니다. 로그 관리를 위해 MySQL 엔진의 Amazon RDS를 사용합니다. SaaS 형태의 제품과 REST API, 로그를 인터페이스하여 고객들에게 보안 서비스를 제공할 수 있습니다.
