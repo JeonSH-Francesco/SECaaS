@@ -7,7 +7,6 @@ SaaS ( Software as a Service)의 일종으로 보안 서비스에 특화된 SaaS
 
 물리적인 보안 장비나 SW 등의 설치 등의 절차 없이 고객이 원하는 즉시, 원하는 만큼 보안 서비스를 바로 이용할 수 있도록 제공하는 것이 목표
 
-![image](https://github.com/JeonSH-Francesco/SECaaS/assets/112309895/4d3fa4d7-538a-4262-8e29-be66f44b4f36)
 
 ![image](https://github.com/JeonSH-Francesco/SECaaS/assets/112309895/cd165b65-1d84-4b98-abcb-4dba39281f06)
 
