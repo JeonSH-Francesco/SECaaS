@@ -36,6 +36,9 @@ SECaaS 형태로 고객 웹 애플리케이션에 대한 웹 보안 서비스를
 
 ![image](https://github.com/JeonSH-Francesco/SECaaS/assets/112309895/887c470c-d916-4787-80b8-bf167ca5c0d6)
 
+## R&R
+![image](https://github.com/JeonSH-Francesco/SECaaS/assets/112309895/acc05d62-b33d-4c24-94b3-1685a9fb9864)
+
 
 ## specific
 1. 로그인 및 회원가입 페이지 : regex 필터링 적용하여 특정 형식에 맞는 입력값을 받도록 하였으며, 회원가입 시 자동으로 보안정책을 생성하여 고객사가 등록한 애플리케이션을 Binding 해주며, 이때 세부 설정들 즉, 프로토콜, 부하분산, Source NAT 설정, Server, Group, Rule 설정이 완료됩니다.
