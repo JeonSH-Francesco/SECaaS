@@ -20,8 +20,7 @@ app = Blueprint('app', __name__, url_prefix='/api/v1/app')
 
 
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) #지우시요 나중에
-
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 @app.route('/<int:app_id>/dashboard', methods=['GET'])
 #@jwt_required()
@@ -200,17 +199,17 @@ def security_logs(app_id):
                 host = base64.b64decode(log_data[7])
                 formatted_log = {
                     'no': log_data[0],
-                    'timestamp': timestamp_datetime,  # 수정된 부분
-                    'category': log_data[2]['text'],  # 수정된 부분
+                    'timestamp': timestamp_datetime,  
+                    'category': log_data[2]['text'], 
                     'app_name': log_data[3],
-                    'risk_level': log_data[4]['text'],  # 수정된 부분
-                    'sig_level': log_data[5]['text'],  # 수정된 부분
+                    'risk_level': log_data[4]['text'], 
+                    'sig_level': log_data[5]['text'], 
                     'host': host,
                     'url': decoded_url,
                     'attacker_ip': log_data[8],
                     'server_ip_port': log_data[9],
-                    'country': log_data[10]['text'],  # 수정된 부분
-                    'action': log_data[11]['text'],  # 수정된 부분
+                    'country': log_data[10]['text'], 
+                    'action': log_data[11]['text'],
                     'app_id' : app_id
                 }
                 Log.add_log(formatted_log)
